@@ -2,6 +2,7 @@
 
 ## 概要
 
+このハンズオンは、Azure Functions を使用して、Java で関数を作成し、デプロイする方法を学ぶことを目的としています。
 
 ## 前提条件
 
@@ -13,10 +14,16 @@
 
 ## 最終構成図
 
+TODO：最終構成図を追加
 
 ## 目次
 
+- [Exercise 1 - Azure Functions の作成](./documents/Exercise%201.md)
+- [Exercise 2 - Functionsアプリケーションのデプロイ（Java編）](./documents/Exercise%202.md)
 
 ## 参考資料
 
-- [Azure Functions の概要 | Microsoft Learn](https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-overview?pivots=programming-language-java) 
+- [Azure Functions の概要](https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-overview?pivots=programming-language-java) 
+- [コマンド ラインから Java 関数を作成する](https://learn.microsoft.com/ja-jp/azure/azure-functions/create-first-function-cli-java?tabs=windows%2Cbash%2Cazure-cli%2Cbrowser) 
+-  [Azure Functions の HTTP トリガーとバインドの概要](https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-bindings-http-webhook?tabs=isolated-process%2Cfunctionsv2&pivots=programming-language-java) 
+- [Azure Functions のタイマー トリガー](https://learn.microsoft.com/ja-jp/azure/azure-functions/functions-bindings-timer?tabs=python-v2%2Cisolated-process%2Cnodejs-v4&pivots=programming-language-java) 
