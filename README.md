@@ -12,10 +12,6 @@
 - Apache Maven バージョン 3.0 以降
 - Azure Functions Core Tools バージョン 4.x
 
-## 最終構成図
-
-TODO：最終構成図を追加
-
 ## 目次
 
 - [Exercise 1 - Azure Functions の作成](./documents/Exercise%201.md)
