@@ -14,7 +14,7 @@
         <java.version>17</java.version>
         <azure.functions.maven.plugin.version>1.36.0</azure.functions.maven.plugin.version>
         <azure.functions.java.library.version>2.2.0</azure.functions.java.library.version>
-        <functionAppName>functions-java-demo-20241210124702393</functionAppName>
+        <functionAppName>functions-hands-on-app-3</functionAppName>
     </properties>
 
     <dependencies>
@@ -59,9 +59,9 @@
                     <!-- function app name -->
                     <appName>${functionAppName}</appName>
                     <!-- function app resource group -->
-                    <resourceGroup>java-functions-group</resourceGroup>
+                    <resourceGroup>functions-hands-on_3</resourceGroup>
                     <!-- function app service plan name -->
-                    <appServicePlanName>java-functions-app-service-plan</appServicePlanName>
+                    <appServicePlanName>ASP-functionshandson3-8e32</appServicePlanName>
                     <!-- function app region-->
                     <!-- refers https://github.com/microsoft/azure-maven-plugins/wiki/Azure-Functions:-Configuration-Details#supported-regions for all valid values -->
                     <region>westus</region>
@@ -71,7 +71,7 @@
                     <!-- Whether to disable application insights, default is false -->
                     <!-- refers https://github.com/microsoft/azure-maven-plugins/wiki/Azure-Functions:-Configuration-Details for all valid configurations for application insights-->
                     <!-- <disableAppInsights></disableAppInsights> -->
-                    <!-- <appInsightsInstance></appInsightsInstance> -->
+                    <appInsightsInstance>functions-hands-on-app-3</appInsightsInstance>
                     <runtime>
                         <!-- runtime os, could be windows, linux or docker-->
                         <os>Linux</os>
